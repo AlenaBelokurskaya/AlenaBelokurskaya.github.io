@@ -33,7 +33,7 @@ main {
     height: 29px;
     width: 170px;
     margin-top: 20px;
-    background-image: url("Grymala.png");
+    background-image: url("img/Grymala.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -86,15 +86,15 @@ main {
 }
 
 .passion__img{
-    background-image: url("Passion.png");
+    background-image: url("img/Passion.png");
 }
 
 .experience__img{
-    background-image: url("about-us.png");
+    background-image: url("img/about-us.png");
 }
 
 .knowledge__img{
-    background-image: url("Knowledge.png");
+    background-image: url("img/Knowledge.png");
 }
 
 .about-us-block__btn{
@@ -140,28 +140,28 @@ main {
 
 .augmented-reality__img{
     margin-top: 34px;
-    background-image: url("Augmented_Reality@1X.png");
+    background-image: url("img/Augmented_Reality@1X.png");
 }
 
 .image-processing__img{
-    background-image: url("Image_processing@1X.png");
+    background-image: url("img/Image_processing@1X.png");
 }
 
 .custom-design__img{
-    background-image: url("Custom_design@1X.png");
+    background-image: url("img/Custom_design@1X.png");
 }
 
 .neural-networks__img{
     margin-top: 30px;
-    background-image: url("Neural_networks@1X.png");
+    background-image: url("img/Neural_networks@1X.png");
 }
 
 .complex-algorithms__img{
-    background-image: url("Complex_algorithms@1X.png");
+    background-image: url("img/Complex_algorithms@1X.png");
 }
 
 .native-development__img{
-    background-image: url("Native_development@1X.png");
+    background-image: url("img/Native_development@1X.png");
 }
 
 .our-expertise-block__title{
@@ -178,7 +178,7 @@ main {
 
 .index-video-block{
     height: 560px;
-    background-image: url("Base@1X.png");
+    background-image: url("img/Base@1X.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -241,6 +241,7 @@ main {
     height: 28px !important;
     line-height: 28px !important;
     margin: 3px 10px 0 0;
+    padding: 0 23px !important;
     background-color: #45d1ff !important;
     border-radius: 7px !important;
 }
@@ -251,6 +252,10 @@ main {
 
 .contacts-block__row{
     margin-bottom: 0 !important;
+}
+
+.contacts-block__col3_width{
+    width: 70px !important;
 }
 
 .contacts-block__info{
@@ -268,7 +273,7 @@ main {
     display: inline-block;
     height: 33px;
     width: 203px;
-    background-image: url("Grymala-footer.png");
+    background-image: url("img/Grymala-footer.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
