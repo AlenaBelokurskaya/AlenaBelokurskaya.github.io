@@ -1,0 +1,283 @@
+*{
+    color: rgba(0, 0, 0, 255);
+}
+
+@media only screen and (min-width: 993px) {
+    .header__container {
+        width: 57% !important;
+    }
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+    /*background-image: url("img/rymala.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center -20px;*/
+    /*background-size: 127%;*/
+    /*opacity: 0.4;*/
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.header{
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.header__brand-logo{
+    height: 29px;
+    width: 170px;
+    margin-top: 20px;
+    background-image: url("img/Grymala.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.header__item{
+    margin: 0 10px;
+    padding: 5px 10px 0;
+    font-size: 24px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 255);
+}
+
+.header__item:hover{
+    background-color: transparent;
+    border-bottom: 4px solid #000;
+}
+
+.index__title{
+    margin-bottom: 30px;
+    font-size: 44px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/*slider-block*/
+
+.slider-block{
+    height: 740px;
+}
+
+/*about-us-block*/
+
+.about-us-block{
+    padding-bottom: 72px;
+}
+
+.passion,
+.experience,
+.knowledge{
+    padding: 0 20px;
+}
+
+.about-us-block__img{
+    height: 108px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+}
+
+.passion__img{
+    background-image: url("img/Passion.png");
+}
+
+.experience__img{
+    background-image: url("img/about-us.png");
+}
+
+.knowledge__img{
+    background-image: url("img/Knowledge.png");
+}
+
+.about-us-block__btn{
+    height: 43px !important;
+    line-height: 43px !important;
+    width: 211px;
+    border-radius: 5px !important;
+    font-size: 22px !important;
+    text-transform: none !important;
+}
+
+.passion-btn{
+    background: linear-gradient(270deg,#05c6c0,#03e58e);
+}
+
+.experience-btn{
+    background: linear-gradient(270deg,#875bfe,#4f9efd);
+}
+
+.knowledge-btn{
+    background: linear-gradient(270deg,#ff8d81,#ffc784);
+}
+
+.about-us-block__info{
+    line-height: 19px;
+    margin-top: 18px;
+    font-size: 13px;
+}
+
+/*our-expertise-block*/
+
+.our-expertise-block{
+    padding: 24px 0 40px;
+    background-color: #eee;
+}
+
+.our-expertise-block__img{
+    height: 90px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+}
+
+.augmented-reality__img{
+    margin-top: 34px;
+    background-image: url("img/Augmented_Reality@1X.png");
+}
+
+.image-processing__img{
+    background-image: url("img/Image_processing@1X.png");
+}
+
+.custom-design__img{
+    background-image: url("img/Custom_design@1X.png");
+}
+
+.neural-networks__img{
+    margin-top: 30px;
+    background-image: url("img/Neural_networks@1X.png");
+}
+
+.complex-algorithms__img{
+    background-image: url("img/Complex_algorithms@1X.png");
+}
+
+.native-development__img{
+    background-image: url("img/Native_development@1X.png");
+}
+
+.our-expertise-block__title{
+    margin-top: -7px;
+    margin-bottom: 0;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.our-expertise-block__info{
+    line-height: 13px;
+    font-size: 12px;
+}
+
+.index-video-block{
+    height: 560px;
+    background-image: url("img/Base@1X.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/*contacts-block*/
+
+.contacts-block{
+    padding: 0 0 100px;
+}
+
+@media (min-width: 601px) {
+    .contacts-block__col{
+        padding-right: 30px !important;
+    }
+
+    .contacts-block__col:last-child{
+        padding-left: 40px !important;
+        border-left: 1px solid #eee;
+    }
+}
+
+@media (max-width: 600px) {
+    .contacts-block__img{
+        height: auto;
+        width: 100%;
+    }
+}
+
+.contacts-block__title{
+    margin: 33px 0 38px 66px;
+    font-size: 20px;
+}
+
+.contacts-block__label{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 255);
+}
+
+.contacts-block__input,
+.contacts-block__textarea{
+    background-color: #f0f0f0 !important;
+    border: 1px solid #eee !important;
+    border-radius: 5px !important;
+}
+
+.contacts-block__input{
+    height: 35px !important;
+    margin-bottom: 4px !important;
+}
+
+.contacts-block__textarea{
+    height: auto;
+    resize: none;
+}
+
+.contacts-block__btn{
+    float: right;
+    height: 28px !important;
+    line-height: 28px !important;
+    margin: 3px 10px 0 0;
+    background-color: #45d1ff !important;
+    border-radius: 7px !important;
+}
+
+.contacts-block__img{
+    margin-bottom: 10px;
+}
+
+.contacts-block__row{
+    margin-bottom: 0 !important;
+}
+
+.contacts-block__info{
+    margin: 0;
+}
+
+/*footer*/
+
+.footer-block{
+    background-color: #000 !important;
+    font-size: 18px;
+}
+
+.footer-block__logo{
+    display: inline-block;
+    height: 33px;
+    width: 203px;
+    background-image: url("img/Grymala-footer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.footer-block__border{
+    border-right: 1px solid rgba(74, 74, 74, 255);
+}
+
+.footer-block__footer-copyright{
+    color: rgba(74, 74, 74, 255) !important;
+}
