@@ -8,20 +8,21 @@
     <title>Grumala</title>
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <script src="index.js" rel="script"></script>
 </head>
 <body>
     <main>
-        <nav class="header">
-            <div class="nav-wrapper container header__container">
-                <a href="#" class="brand-logo header__brand-logo"></a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a class="header__item" href="">Apps</a></li>
-                    <li><a class="header__item" href="#about-us">About us</a></li>
-                    <li><a class="header__item" href="#contacts">Contats</a></li>
-                </ul>
-            </div>
-        </nav>
+        <div class="navbar-fixed">
+            <nav class="header">
+                <div class="nav-wrapper container header__container">
+                    <a href="#" class="brand-logo header__brand-logo"></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a class="header__item" href="">Apps</a></li>
+                        <li><a class="header__item" href="#about-us">About us</a></li>
+                        <li><a class="header__item" href="#contacts">Contats</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
 
         <div class="row slider-block">
             <div class="col s12">
@@ -35,9 +36,9 @@
             </div>
         </div>
 
-        <div class="container">
+        <div id="about-us" class="container">
             <div class="row about-us-block">
-                <h3 id="about-us" class="index__title">About Us</h3>
+                <h3 class="index__title">About Us</h3>
                 <div class="col s12 m6 l4 passion center-align">
                     <div class="about-us-block__img passion__img"></div>
                     <a class="btn passion-btn about-us-block__btn">Passion</a>
@@ -112,9 +113,9 @@
             </div>
         </div>
 
-        <div class="container">
+        <div id="contacts" class="container">
             <div class="row contacts-block">
-                <h3 id="contacts" class="index__title">Contacts</h3>
+                <h3 class="index__title">Contacts</h3>
                 <div class="col s12 m6 contacts-block__col">
                     <form>
                         <h4 class="contacts-block__title">SEND US A MESSAGE</h4>
