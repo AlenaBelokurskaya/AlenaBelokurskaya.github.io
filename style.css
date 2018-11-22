@@ -78,24 +78,9 @@ main {
     padding: 0 20px;
 }
 
-.about-us-block__img{
+.about-us-block__video{
     height: 108px;
     margin-bottom: 20px;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: contain;
-}
-
-.passion__img{
-    background-image: url("Passion.png");
-}
-
-.experience__img{
-    background-image: url("about-us.png");
-}
-
-.knowledge__img{
-    background-image: url("Knowledge.png");
 }
 
 .about-us-block__btn{
@@ -107,15 +92,15 @@ main {
     text-transform: none !important;
 }
 
-.passion-btn{
+.passion__btn{
     background: linear-gradient(270deg,#05c6c0,#03e58e);
 }
 
-.experience-btn{
+.experience__btn{
     background: linear-gradient(270deg,#875bfe,#4f9efd);
 }
 
-.knowledge-btn{
+.knowledge__btn{
     background: linear-gradient(270deg,#ff8d81,#ffc784);
 }
 
