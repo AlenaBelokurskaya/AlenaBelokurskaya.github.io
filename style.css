@@ -118,6 +118,15 @@ main {
     text-align: center;
 }
 
+nav .sidenav-trigger {
+    float: right !important;
+    margin: 8px 18px !important;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
+    font-size: 30px !important;
+}
+
 /*slider-block*/
 
 .slider-block{
