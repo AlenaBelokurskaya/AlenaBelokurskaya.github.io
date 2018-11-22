@@ -1,4 +1,14 @@
 @font-face {
+    font-family: 'Helvetica Neue Cyr Thin';
+    src: url('HelveticaNeueCyr-Thin.eot');
+    src: url('HelveticaNeueCyr-Thin.eot?#iefix') format('embedded-opentype'),
+    url('HelveticaNeueCyr-Thin.woff') format('woff'),
+    url('HelveticaNeueCyr-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Helvetica Neue Cyr Light';
     src: url('HelveticaNeueCyr-Light.eot');
     src: url('HelveticaNeueCyr-Light.eot?#iefix') format('embedded-opentype'),
@@ -19,13 +29,13 @@
 }
 
 @font-face {
-font-family: 'Helvetica Neue Cyr Medium';
-src: url('HelveticaNeueCyr-Medium.eot');
-src: url('HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'),
-url('HelveticaNeueCyr-Medium.woff') format('woff'),
-url('HelveticaNeueCyr-Medium.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
+    font-family: 'Helvetica Neue Cyr Medium';
+    src: url('HelveticaNeueCyr-Medium.eot');
+    src: url('HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'),
+    url('HelveticaNeueCyr-Medium.woff') format('woff'),
+    url('HelveticaNeueCyr-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
@@ -197,14 +207,14 @@ main {
 .our-expertise-block__title{
     margin-top: -7px;
     margin-bottom: 0;
-    font-size: 19px;
-    font-weight: 500;
+    font-family: 'Helvetica Neue Cyr Light';
+    font-size: 22px;
 }
 
 .our-expertise-block__info{
-    line-height: 13px;
-    font-family: 'Helvetica Neue Cyr Roman';
-    font-size: 12px;
+    line-height: 15px;
+    font-family: 'Helvetica Neue Cyr Light';
+    font-size: 14px;
 }
 
 .index-video-block{
@@ -241,10 +251,12 @@ main {
 
 .contacts-block__title{
     margin: 33px 0 38px 66px;
+    font-family: 'Helvetica Neue Cyr Roman';
     font-size: 20px;
 }
 
 .contacts-block__label{
+    font-family: 'Helvetica Neue Cyr Light';
     font-size: 20px;
     font-weight: 500;
     color: rgba(0, 0, 0, 255);
@@ -270,11 +282,12 @@ main {
 .contacts-block__btn{
     float: right;
     height: 28px !important;
-    line-height: 28px !important;
+    line-height: 32px !important;
     margin: 3px 10px 0 0;
     padding: 0 23px !important;
     background-color: #45d1ff !important;
     border-radius: 7px !important;
+    font-family: 'Helvetica Neue Cyr Light';
 }
 
 .contacts-block__img{
@@ -291,6 +304,12 @@ main {
 
 .contacts-block__info{
     margin: 0;
+    font-family: 'Helvetica Neue Cyr Light';
+}
+
+.contacts-block__info_bold{
+    margin: 0;
+    font-family: 'Helvetica Neue Cyr Medium';
 }
 
 /*footer*/
@@ -314,6 +333,11 @@ main {
     border-right: 1px solid rgba(74, 74, 74, 255);
 }
 
+.footer-block__item{
+    font-family: 'Helvetica Neue Cyr Light';
+}
+
 .footer-block__footer-copyright{
+    font-family: 'Helvetica Neue Cyr Thin';
     color: rgba(74, 74, 74, 255) !important;
 }
