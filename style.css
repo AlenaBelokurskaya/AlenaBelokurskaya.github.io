@@ -19,6 +19,16 @@
 }
 
 @font-face {
+font-family: 'Helvetica Neue Cyr Medium';
+src: url('HelveticaNeueCyr-Medium.eot');
+src: url('HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'),
+url('HelveticaNeueCyr-Medium.woff') format('woff'),
+url('HelveticaNeueCyr-Medium.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
     font-family: 'Helvetica Neue Cyr Bold';
     src: url('HelveticaNeueCyr-Bold.eot');
     src: url('HelveticaNeueCyr-Bold.eot?#iefix') format('embedded-opentype'),
@@ -117,9 +127,10 @@ main {
 
 .about-us-block__btn{
     height: 43px !important;
-    line-height: 43px !important;
+    line-height: 46px !important;
     width: 211px;
     border-radius: 5px !important;
+    font-family: 'Helvetica Neue Cyr Medium';
     font-size: 22px !important;
     text-transform: none !important;
 }
