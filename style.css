@@ -296,6 +296,7 @@ main {
     background-color: #45d1ff !important;
     border-radius: 7px !important;
     font-family: 'Helvetica Neue Cyr Light';
+    box-shadow: none !important;
 }
 
 .contacts-block__img{
