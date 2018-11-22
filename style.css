@@ -378,6 +378,31 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
     background-size: contain;
 }
 
+@media (min-width: 993px) {
+    .footer-block__logo{
+        margin-top: 24px;
+    }
+
+    .footer-block__first{
+        width: 200px !important;
+    }
+
+    .footer-block__second{
+        width: 270px !important;
+        padding-left: 100px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer-block__logo_text-align{
+        text-align: center;
+    }
+
+    .footer-block__border{
+        padding-left: calc(100% - 95px) !important;
+    }
+}
+
 .footer-block__border{
     border-right: 1px solid rgba(74, 74, 74, 255);
 }
@@ -386,7 +411,8 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
     font-family: 'Helvetica Neue Cyr Light';
 }
 
-.footer-block__footer-copyright{
+.footer-copyright__text{
+    margin-top: 0;
     font-family: 'Helvetica Neue Cyr Thin';
     color: rgba(74, 74, 74, 255) !important;
 }
