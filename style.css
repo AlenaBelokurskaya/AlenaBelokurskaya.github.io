@@ -73,7 +73,7 @@ main {
 .header__item{
     margin: 0 10px;
     padding: 5px 10px 0;
-/*     font-family: 'Helvetica Neue Cyr Light'; */
+    font-family: 'Helvetica Neue Cyr Light';
     font-size: 24px;
     font-weight: 300;
     color: rgba(0, 0, 0, 255);
@@ -86,7 +86,7 @@ main {
 
 .index__title{
     margin-bottom: 30px;
-/*     font-family: 'Helvetica Neue Cyr Bold'; */
+    font-family: 'Helvetica Neue Cyr Bold';
     font-size: 44px;
     font-weight: 600;
     text-align: center;
@@ -139,7 +139,7 @@ main {
 .about-us-block__info{
     line-height: 19px;
     margin-top: 18px;
-/*     font-family: 'Helvetica Neue Cyr Roman'; */
+    font-family: 'Helvetica Neue Cyr Roman';
     font-size: 13px;
 }
 
@@ -192,7 +192,7 @@ main {
 
 .our-expertise-block__info{
     line-height: 13px;
-/*     font-family: 'Helvetica Neue Cyr Roman'; */
+    font-family: 'Helvetica Neue Cyr Roman';
     font-size: 12px;
 }
 
