@@ -270,6 +270,12 @@ main {
     border-radius: 5px !important;
 }
 
+.contacts-block__input:focus,
+.contacts-block__textarea:focus{
+    box-shadow: 0 0 5px 3px rgba(59, 149, 255, 1) !important;
+    outline: none;
+}
+
 .contacts-block__input{
     height: 35px !important;
     margin-bottom: 4px !important;
@@ -277,6 +283,7 @@ main {
 
 .contacts-block__textarea{
     height: auto;
+    width: calc( 100% + 2px);
     resize: none;
 }
 
@@ -284,7 +291,7 @@ main {
     float: right;
     height: 28px !important;
     line-height: 32px !important;
-    margin: 3px 10px 0 0;
+    margin: 3px 9px 0 0;
     padding: 0 23px !important;
     background-color: #45d1ff !important;
     border-radius: 7px !important;
