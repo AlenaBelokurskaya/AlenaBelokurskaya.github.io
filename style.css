@@ -348,6 +348,13 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
     margin-bottom: 0 !important;
 }
 
+@media (max-width: 992px) {
+    .contacts-block__row{
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+}
+
 .contacts-block__col3_width{
     width: 70px !important;
 }
