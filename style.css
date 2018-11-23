@@ -424,3 +424,71 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
     font-family: 'Helvetica Neue Cyr Thin';
     color: rgba(74, 74, 74, 255) !important;
 }
+
+/*policy*/
+
+.policy{
+    border-radius: 20px;
+    box-shadow: 0 0 31px 1px rgba(0,0,0,0.07);
+}
+
+.policy__title{
+    margin-top: 0;
+    font-family: 'Helvetica Neue Cyr Medium';
+    font-size: 33px;
+}
+
+.policy__btn{
+    padding: 2px 16px 0 !important;
+    background-color: #fff !important;
+    border: 1px solid rgba(0, 0, 0, 255) !important;
+    border-radius: 7px !important;
+    box-shadow: none !important;
+    font-family: 'Helvetica Neue Cyr Medium';
+    font-size: 14px !important;
+    color: rgba(0, 0, 0, 255) !important;
+}
+
+.policy__text{
+    font-family: 'Helvetica Neue Cyr Medium';
+}
+
+.policy__title-text{
+    display: inline-block;
+    margin: 20px 0 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 255);
+    font-family: 'Helvetica Neue Cyr Bold';
+    font-size: 20px;
+}
+
+@media (min-width: 993px) {
+    .policy{
+        margin-top: 50px !important;
+        margin-bottom: 60px !important;
+        padding: 115px 109px 60px;
+    }
+
+    .policy__btn {
+        float: right;
+    }
+
+    .policy__title-text {
+        padding: 0 80px 10px 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .policy{
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+        padding: 15px;
+    }
+
+    .policy__mobile_padding{
+        padding: 0 12px;
+    }
+
+    .policy__title-text {
+        padding: 0 0 10px 0;
+    }
+}
