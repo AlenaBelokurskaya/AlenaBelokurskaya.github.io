@@ -313,7 +313,7 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
 
 .contacts-block__input:focus,
 .contacts-block__textarea:focus{
-    box-shadow: 0 0 5px 3px rgba(59, 149, 255, 1) !important;
+    box-shadow: 0 0 5px 1px rgba(59, 149, 255, 1) !important;
     outline: none;
 }
 
