@@ -465,7 +465,7 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
     .policy{
         margin-top: 50px !important;
         margin-bottom: 60px !important;
-        padding: 115px 109px 60px;
+        padding: 80px 109px 60px;
     }
 
     .policy__btn {
