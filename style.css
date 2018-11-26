@@ -48,6 +48,16 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Minion Pro Regular';
+    src: url('MinionPro-Regular.eot');
+    src: url('MinionPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('MinionPro-Regular.woff') format('woff'),
+    url('MinionPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *{
     color: rgba(0, 0, 0, 255);
 }
@@ -87,13 +97,18 @@ main {
 }
 
 .header__brand-logo{
-    height: 29px;
+    height: 44px;
     width: 170px;
-    margin-top: 20px;
-    background-image: url("Grymala.png");
+    margin-top: 10px;
+    padding-left: 38px !important;
+    background-image: url("img/Grymala.png");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    background-position: left 12px;
+    background-size: 29px;
+    font-family: 'Minion Pro Regular';
+    font-size: 25px !important;
+    letter-spacing: 2.3px;
+    color: #000 !important;
 }
 
 .header__item{
