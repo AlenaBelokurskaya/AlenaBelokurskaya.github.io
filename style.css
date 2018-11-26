@@ -97,12 +97,19 @@ main {
     padding-left: 38px !important;
     background-image: url("Grymala.png");
     background-repeat: no-repeat;
-    background-position: left 12px;
+    background-position: left 14px;
     background-size: 29px;
     font-family: 'Minion Pro Medium';
     font-size: 25px !important;
     letter-spacing: 2.3px;
     color: #000 !important;
+}
+
+@media (max-width: 600px) {
+
+    .header__brand-logo{
+        background-position: left 10px;
+    }
 }
 
 .header__item{
