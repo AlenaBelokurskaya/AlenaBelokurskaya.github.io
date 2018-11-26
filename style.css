@@ -49,11 +49,11 @@
 }
 
 @font-face {
-    font-family: 'Minion Pro Regular';
-    src: url('MinionPro-Regular.eot');
-    src: url('MinionPro-Regular.eot?#iefix') format('embedded-opentype'),
-    url('MinionPro-Regular.woff') format('woff'),
-    url('MinionPro-Regular.ttf') format('truetype');
+    font-family: 'Minion Pro Medium';
+    src: url('MinionPro-Medium.eot');
+    src: url('MinionPro-Medium.eot?#iefix') format('embedded-opentype'),
+    url('MinionPro-Medium.woff') format('woff'),
+    url('MinionPro-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -105,7 +105,7 @@ main {
     background-repeat: no-repeat;
     background-position: left 12px;
     background-size: 29px;
-    font-family: 'Minion Pro Regular';
+    font-family: 'Minion Pro Medium';
     font-size: 25px !important;
     letter-spacing: 2.3px;
     color: #000 !important;
