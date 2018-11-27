@@ -524,26 +524,26 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
     }
     
     .augmented-reality__img{
-        background-image: url("img/Augmented_Reality@2x.png");
+        background-image: url("Augmented_Reality@2x.png");
     }
 
     .image-processing__img{
-        background-image: url("img/Image_processing@2x.png");
+        background-image: url("Image_processing@2x.png");
     }
 
     .custom-design__img{
-        background-image: url("img/Custom_design@2x.png");
+        background-image: url("Custom_design@2x.png");
     }
 
     .neural-networks__img{
-        background-image: url("img/Neural_networks@2x.png");
+        background-image: url("Neural_networks@2x.png");
     }
 
     .complex-algorithms__img{
-        background-image: url("img/Complex_algorithms@2x.png");
+        background-image: url("Complex_algorithms@2x.png");
     }
 
     .native-development__img{
-        background-image: url("img/Native_development@2x.png");
+        background-image: url("Native_development@2x.png");
     }
 }
