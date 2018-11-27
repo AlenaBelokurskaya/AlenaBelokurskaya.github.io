@@ -508,3 +508,10 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
         padding: 0 0 10px 0;
     }
 }
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .video-block{
+        display: none;
+    }
+}
