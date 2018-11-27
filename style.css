@@ -509,9 +509,17 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
     }
 }
 
+.video-retina-block{
+    display: none;
+}
+
 @media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
-    .video-block{
+    .video-no-retina-block{
         display: none;
+    }
+
+    .video-retina-block{
+        display: inline-block;
     }
 }
