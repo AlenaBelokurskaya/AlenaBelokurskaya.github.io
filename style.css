@@ -396,10 +396,15 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
     display: inline-block;
     height: 33px;
     width: 203px;
+    padding-left: 38px !important;
     background-image: url("Grymala-footer.png");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    background-position: left 3px;
+    background-size: 29px;
+    font-family: 'Minion Pro Medium';
+    font-size: 25px !important;
+    letter-spacing: 2.3px;
+    color: #fff;
 }
 
 @media (min-width: 993px) {
@@ -424,6 +429,12 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
 
     .footer-block__border{
         padding-left: calc(100% - 95px) !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-block__logo{
+        padding-left: 15px !important;
     }
 }
 
